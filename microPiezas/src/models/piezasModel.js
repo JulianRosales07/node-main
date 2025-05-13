@@ -1,10 +1,10 @@
 const mysql = require('mysql2/promise');
 
 const connection = mysql.createPool({
-    host: 'localhost',
-    user: 'root', 
-    password: '1193051330', 
-    database: 'taller_mecanico'
+    host: 'interchange.proxy.rlwy.net:39809',
+    user: 'root', // Reemplaza con tu usuario
+    password: 'klGJkEKVAWycQdDBYJZBQZtBPRTWgZNa', // Reemplaza con tu contraseña
+    database: 'railway'
 });
 
 async function traerPiezas() {
