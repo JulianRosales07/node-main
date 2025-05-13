@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const reparacionesModel = require('../models/reparacionesModel');
 
-// Obtener todas las reparaciones: /GasMonkey/reparaciones/traer
+// Obtener todas las reparaciones: /GasMonkey/reparaciones/traer/
 router.get('/GasMonkey/reparaciones/traer', async (req, res) => {
     try {
         const reparaciones = await reparacionesModel.traerReparaciones();
