@@ -1,7 +1,7 @@
 const mysql = require('mysql2/promise');
 
 const connection = mysql.createPool({
-    host: 'interchange.proxy.rlwy.net:39809',
+    host: 'interchange.proxy.rlwy.net',
     user: 'root', // Reemplaza con tu usuario
     password: 'klGJkEKVAWycQdDBYJZBQZtBPRTWgZNa', // Reemplaza con tu contraseña
     database: 'railway'
