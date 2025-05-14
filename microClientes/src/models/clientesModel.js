@@ -1,4 +1,3 @@
-// c:\Users\PC\Downloads\node-main\node-main\microClientes\src\models\clientesModel.js
 const mysql = require('mysql2/promise');
 
 const connection = mysql.createPool({
